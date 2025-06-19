@@ -1,0 +1,12 @@
+streamlit==1.35.0
+pandas==2.2.2
+networkx==3.3
+matplotlib==3.9.0
+openrouteservice==2.3.0
+folium==0.16.0
+streamlit-folium==0.20.0
+geopandas==0.14.4
+shapely==2.0.4
+requests==2.32.2
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.1
