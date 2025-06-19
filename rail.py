@@ -16,9 +16,9 @@ from admin import admin_login_ui
 import hashlib
 from fuzzy_matcher import FuzzyStationResolver
   
-INSTAMOJO_API_KEY = "38759069bce2f803d5fabfb4e387faa4E"
-INSTAMOJO_AUTH_TOKEN = "5a952a567ec210d30ade40dda5070b6c"
-INSTAMOJO_ENDPOINT = "https://imjo.in/m2zZs4"
+INSTAMOJO_API_KEY = ""
+INSTAMOJO_AUTH_TOKEN = ""
+INSTAMOJO_ENDPOINT = ""
 USER_FILE = "users.csv"
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
