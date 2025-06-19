@@ -331,7 +331,7 @@ elif menu == "Admin":
     st.dataframe(booking_system.bookings)        
 elif menu == "Real Train Route Google Maps":
     st.header("Real Train Route Finder (OpenRouteService)")
-    ORS_API_KEY = "5b3ce3597851110001cf6248c94dccb969ed43fbafb3829e5da4f2e4"  # Replace with your actual OpenRouteService API key
+    ORS_API_KEY = ""  # Replace with your actual OpenRouteService API key
 
     # Only initialize session state variables if they do not exist
     if 'ors_map' not in st.session_state:
